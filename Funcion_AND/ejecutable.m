@@ -46,10 +46,6 @@ while(flag~=N)
         else %y==-1 or y==0
             plot(entrada(1),entrada(2),'r*')
         end
-        %             str1 = ['La salida de la AND es yd= ',num2str(yd)];
-        %             text(-2,-0.5,str1,'HorizontalAlignment','left');
-        %             ste2 = ['La salida del Perceptron y= ',num2str(y)];
-        %             text(-2,-1.5,ste2,'HorizontalAlignment','left');
         
         pause(1)
         
@@ -60,14 +56,12 @@ while(flag~=N)
             W=W+deltaW;
             delete(h1)
             h1=plot_lines(W);
-            %str1 = {['La constante de'],['aprendizaje es = ',num2str(1/k)]};
-            %t=text(0.1,2,str1,'HorizontalAlignment','left');
+            
             pause(1)
         else
             flag=flag+1;
             
         end
-            %delete(t)
         
     end
     hold off
