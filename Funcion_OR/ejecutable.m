@@ -47,11 +47,7 @@ while(flag~=N)
         else %y==-1 o y==0
             plot(entrada(1),entrada(2),'r*')
         end
-        %             str1 = ['La salida de la AND es yd= ',num2str(yd)];
-        %             text(-2,-0.5,str1,'HorizontalAlignment','left');
-        %             ste2 = ['La salida del Perceptron y= ',num2str(y)];
-        %             text(-2,-1.5,ste2,'HorizontalAlignment','left');
-        
+
         pause(1)
         
         
@@ -66,9 +62,8 @@ while(flag~=N)
             
         end
         
-        
     end
-    %    if(i==4) pause(3); end
+    
     pause(1)
     hold off
     h1=plot_lines(W);
